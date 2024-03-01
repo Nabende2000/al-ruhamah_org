@@ -1,0 +1,201 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+   /* background: #111; */
+   background: #DCE0E1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .footer-container .sec{
+    margin-right: 30px;
+}
+
+footer .footer-container .sec.aboutus{
+        width: 40%;
+        text-align: left;
+}
+
+footer  h2{
+    position: relative;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #1b61d7;
+}
+
+footer p{
+   /* color: #999; */
+    color:#222;
+    text-align: justify;
+}
+
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover{
+    background: #1b61d7;
+}
+
+.sci li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+.sci li a .fa-brands{
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks{
+    position: relative;
+    width: 25%;
+    text-align: justify;
+}
+
+.contact{
+    text-align: justify;
+}
+
+.quickLinks ul li{
+    list-style: none;
+}
+
+.quickLinks ul li a{
+    color: #222;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+    color: #fff;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1){
+    color: #222;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: #222;
+    text-align: justify;
+}
+
+.contact .info li a{
+    color: #222;
+    text-decoration: none;
+}
+
+.contact .info li a,
+.quickLinks ul li a {
+  color: #333; /* Set the default color */
+  transition: color 0.3s ease; /* Add a transition effect */
+}
+
+.contact .info li a:hover,
+.quickLinks ul li a:hover {
+    color: #1b61d7;
+}
+
+.copyRightText{
+    width: 100%;
+    background: #1b61d7;
+    padding: 8px 100px;
+    text-align: center;
+    color: #DCE0E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.copyRightText .poweredBy{
+    box-sizing: border-box;
+    font-weight: 100;
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+}
+
+.copyRightText .poweredBy a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 100;
+    color: wheat;
+}
+
+@media (max-width:991px) {
+    footer{
+        padding: 40px;
+    }   
+
+    footer .footer-container{
+        flex-direction: column;
+    }
+
+    footer .footer-container .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footer-container .sec.sec.aboutus,
+    .quickLinks,
+    .contact{
+        width: 100%;
+    }
+
+    .copyRightText{
+        padding: 8px 40px;
+    }
+    
+}
