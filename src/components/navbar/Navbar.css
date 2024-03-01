@@ -1,0 +1,127 @@
+.navbar-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-container-image{
+    max-width: 150px;
+    float: left;
+    margin-right: 25px;
+   
+}
+
+.logo_img {
+    width: 100%;
+    max-height: 80px;
+    
+  }
+
+  .phone-links-wrap {
+    float: left;
+    display: flex;
+    align-items: flex-start; /* Align items to flex start */
+    flex-direction: column; 
+  }
+
+  .phone_Number{
+    font-size: 20px;
+    font-weight: 700;
+    color: #232323;
+    font-family: 'Open Sans',sans-serif;
+    white-space: nowrap;
+  }
+
+  .additional-phone-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .additional-phone-links a{
+    font-size: 13px;
+    margin-right: 28px;
+    white-space: nowrap;
+    color: #1b61d7;
+  }
+
+  .dotted-underline {
+    border-bottom: 1px dotted #1b61d7;
+     
+  }
+
+  .search-container{
+    background: #1b61d7;
+  }
+
+  
+.search-bar{
+    width: 100%;
+    max-width: 350px;
+    background-color: #ededed;
+    /* background: rgba(255, 222, 222, 0.2); */
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0px 40px;
+    font-size: 15px;
+   /* color: #cac7ff; */
+   color: #898989;
+}
+
+::placeholder{
+   /* color: #cac7ff; */
+   color: #898989;
+}
+
+.search-bar button img{
+        width: 15px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+.cart-user-wrap{
+  display: flex;
+  gap: 1rem;
+}
+
+.shopping-icon-cart{
+  position: relative;
+  text-align: left;
+  align-self: center;
+  margin-right: 30px;
+}
+
+.shopping-icon-cart img{
+  width: 40px;
+}
+
+.shopping-icon-cart span{
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}
