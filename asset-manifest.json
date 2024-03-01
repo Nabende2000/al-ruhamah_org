@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/al-ruhamah_org/static/css/main.f1487f29.css",
+    "main.js": "/al-ruhamah_org/static/js/main.32976b86.js",
+    "static/js/787.2a19bbe6.chunk.js": "/al-ruhamah_org/static/js/787.2a19bbe6.chunk.js",
+    "static/media/background.jpg": "/al-ruhamah_org/static/media/background.83ea94f362b7d2b17552.jpg",
+    "static/media/American-Express.png": "/al-ruhamah_org/static/media/American-Express.92560d67a3faac25a1b7.png",
+    "static/media/al-ruhamah-org.png": "/al-ruhamah_org/static/media/al-ruhamah-org.b761d7b4b36526a49d17.png",
+    "static/media/mtn momo.png": "/al-ruhamah_org/static/media/mtn momo.520275add78f14d04127.png",
+    "static/media/mastercard.jpg": "/al-ruhamah_org/static/media/mastercard.de30e0bfac47f17cea7a.jpg",
+    "static/media/Visa-Card.png": "/al-ruhamah_org/static/media/Visa-Card.5c540b6c671f5d2edc44.png",
+    "static/media/paypal.png": "/al-ruhamah_org/static/media/paypal.d7ee1befcdec72e238e3.png",
+    "static/media/logo.svg": "/al-ruhamah_org/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/al-ruhamah_org/index.html",
+    "static/media/shopping_cart_icon.svg": "/al-ruhamah_org/static/media/shopping_cart_icon.6010b8be9a55976eda4a3b85a96be365.svg",
+    "main.f1487f29.css.map": "/al-ruhamah_org/static/css/main.f1487f29.css.map",
+    "main.32976b86.js.map": "/al-ruhamah_org/static/js/main.32976b86.js.map",
+    "787.2a19bbe6.chunk.js.map": "/al-ruhamah_org/static/js/787.2a19bbe6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1487f29.css",
+    "static/js/main.32976b86.js"
+  ]
+}
